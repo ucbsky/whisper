@@ -1,0 +1,13 @@
+{
+    "client_port": 6666,
+    "num_clients": 1000,
+    "is_bob": false,
+    "mpc_addr": "7777",
+    "num_mpc_sockets": 32,
+    "num_bad_clients": 100,
+    "agg_fn": "sv",
+    "single_tag": false,
+    "chunk_size": 64,
+    "vec_size": 128,
+    "log_level": "info"
+}

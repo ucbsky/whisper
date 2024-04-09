@@ -1,0 +1,11 @@
+{
+    "client_port": 6667,
+    "num_clients": 100,
+    "is_bob": true,
+    "mpc_addr": "localhost:7777",
+    "num_mpc_sockets": 32,
+    "recovery_threshold": 0.01,
+    "batch_size": 10, 
+    "num_bad_clients": 1,
+    "log_level": "info"
+}

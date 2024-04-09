@@ -1,0 +1,9 @@
+{
+    "alice": "localhost:6666",
+    "bob": "localhost:6667",
+    "num_clients": 100,
+    "num_bad_clients": 1,
+    "recovery_threshold": 0.01,
+    "batch_size": 10,
+    "log_level": "info"
+}

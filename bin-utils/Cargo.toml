@@ -1,0 +1,22 @@
+[package]
+name = "bin-utils"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "3.0"
+tracing-core = "0.1"
+prio = {version = "0.15", path = "../batched-flpcp-rs"}
+rand = "0.8.5"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+serialize = {path = "../serialize"}
+bridge = {path = "../bridge"}
+
+[features]
+hhclient = []
+hhserver = []
+prioclient = []
+prioserver  = []
