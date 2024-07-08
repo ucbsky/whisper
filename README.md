@@ -1,10 +1,7 @@
 # README
 
-<<<<<<< HEAD
 This code accompanies Private Analytics via Streaming, Sketching, and Silently Verifiable Proofs.
 
-=======
->>>>>>> bfc8c8430962ee77cf9e36a57ac10bd52027f256
 ## WARNING: This is not production-ready code.
 
 This is software for a research prototype. Please
@@ -75,10 +72,6 @@ Very similar to hh config. Some big differences:
 * `chunk_size`: Prio3 chunk size, for vector sum. See paper for details 
 * `vec_size`: Prio3 vec size, for vector sum task.
 * `agg_fn`: Which aggregation to use with Prio. `sv` for Vector Sum, `hs` for histogram, and `av` for average.
-<<<<<<< HEAD
 * `single_tag`: if true, then we perform group testing over all client submissions at once. If false, then we split client keys into `NUM_CORES` chunks, and do group testing over them in parallel. Enabling `single_tag` reduces server-server communication at the cost of higher runtime. The results in the paper were run with this parameter set to false.
-=======
-* `single_tag`: if true, then we perform group testing over all client submissions at once. if false, then we split client keys into `NUM_CORES` chunks, and do group testing over them in parallel. Enabling `single_tag` reduces server-server communication at the cost of higher runtime.   
->>>>>>> bfc8c8430962ee77cf9e36a57ac10bd52027f256
 
-Note: to run base prio3, replace `server-batch-prio3` and `client-batch-prio3` with `server-base-prio3` and `client-base-prio3` respectively
+Note: to run base prio3, replace `server-batch-prio3` and `client-batch-prio3` with `server-base-prio3` and `client-base-prio3` respectively.
